@@ -3,7 +3,8 @@
     padding: 0%;
     margin: 0%;
 }
-body{
-    display: flex;
-    
+.bg-image{
+    background-image:url(./gb\ pics.jpg) ;
+    filter: blur(30rem);
+    min-height: auto;
 }
