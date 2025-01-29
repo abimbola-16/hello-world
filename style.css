@@ -3,21 +3,40 @@
     padding: 0%;
     margin: 0%;
 }
-.main{
-    background-image:url(gb\ pics.jpg) ;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
-    max-height: 100%;
-    max-width: 100%;
-    background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.container{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.word{
+  text-align: center;
+  color:whitesmoke;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+}
+.head img{
+    border-radius: 300px;
+    width: 200px;
+    height: 150px;
+    text-align: left;
 }
 .head{
-    border: 2px;
-    border-style: solid; 
-    border-color: black;
-    background-color: rgb(71, 71, 132);
-    text-align: center;
-    align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    align-items:  center;
+    border: 3px ;
+    display: flex;
+    gap: 1rem;
+}
+.navi ul{
+     list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    list-style: none;
+    align-items:center;
 }
