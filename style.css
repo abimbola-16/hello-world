@@ -3,6 +3,9 @@
     padding: 0%;
     margin: 0%;
 }
+body{
+    background-color: red;
+}
 .container{
     position: relative;
     text-align: center;
@@ -19,24 +22,47 @@
   align-items: center;
 }
 .head img{
-    border-radius: 300px;
-    width: 200px;
-    height: 150px;
+    border-radius: 400px;
+    width: auto;
+    height: 5rem;
     text-align: left;
 }
 .head{
     list-style: none;
     justify-content: space-between;
     align-items:  center;
-    border: 3px ;
-    display: flex;
-    gap: 1rem;
+    border: 1px ;
+    display:flex ;
 }
-.navi ul{
-     list-style: none;
-    display: flex;
-    justify-content: center;
-    gap: 4rem;
+.navi ul {
+    width: 100%;
+    color: white;
     list-style: none;
-    align-items:center;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: end;
+    border: 1px;
+}
+.navi a{
+    text-decoration: none;
+}
+.ead{
+    display:flex;
+    gap: 1rem;
+    align-items: center;
+}
+p{
+ align-items: end;
+}
+#she{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.but{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
