@@ -38,13 +38,15 @@ body{
 .navi ul {
     width: 100%;
     color: white;
+}
+    /*
     list-style: none;
     display: flex;
     gap: 20px;
     align-items: center;
     justify-content: end;
     border: 1px;
-}
+}*/
 .navi a{
     text-decoration: none;
 }
