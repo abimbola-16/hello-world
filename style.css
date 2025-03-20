@@ -19,7 +19,7 @@
   align-items: center;
 }
  .head{
-  height: 35px; 
+  height: 20px; 
   background-color: red;
   display: flex;
   align-items: flex-end;
@@ -28,10 +28,10 @@
 }
 .navi{
   position: absolute;
-  top: 10px;
-  right: 10px;
-  font-size: 20px;
-  font-weight: bold;
+  top: 2px;
+  right: 5px;
+  font-size: 15px;
+  font-weight: 30px;
   color: #333;
 }
 .navi ul{
@@ -60,8 +60,16 @@ gap: 20px;
   transform: translateX(-50%); 
   border-radius: 5px;
 }
+.head2 .ead{
+  display: flex;
+  align-items: center;
+  gap:1rem ;
+}
 .ead img{
     border-radius: 160%;
     height: auto;
-    width: 100px;
+    width: 150px;
+}
+.ead p{
+text-align: left; 
 }
