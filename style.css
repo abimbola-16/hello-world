@@ -77,3 +77,43 @@ gap: 20px;
 .ead p{
 text-align: left; 
 }
+/*#About*/ .sec{
+    background-color: #f4f4f4; 
+    padding: 50px 20px; 
+    text-align: center; 
+  }
+  
+  /*#About .sec*/ .container1 {
+    max-width: 1200px; /* Maximum width for the content */
+    margin: 0 auto; /* Centering the container */
+    padding: 0 20px; /* Padding for small screens */
+  }
+  
+  /*#About .sec*/ P {
+    font-size: 36px; /* Large font size for the title */
+    color: #333; /* Dark color for the heading */
+    margin-bottom: 20px; /* Space below the heading */
+    font-weight: bold;
+  }
+  
+   p {
+    font-size: 18px; /* Set the font size for paragraphs */
+    line-height: 1.6; /* Improve readability by increasing line height */
+    color: #666; /* Slightly lighter gray text */
+    max-width: 800px; /* Set maximum width to make paragraphs easier to read */
+    margin: 0 auto; /* Center align the paragraphs */
+    margin-bottom: 20px; /* Space below paragraphs */
+  }
+  
+  /* Add a border or shadow to make the section stand out */
+  .sec {
+    border-top: 3px solid #4CAF50; /* Green top border for visual separation */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  .sec p {
+      font-size: 16px; /* Slightly smaller text on mobile */
+    }
+  
+    .sec {
+      padding: 30px 15px; /* Reduce padding on mobile */
+    }
