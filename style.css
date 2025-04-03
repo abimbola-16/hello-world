@@ -73,14 +73,15 @@ text-align: left;
   }
     */
   P {
-    font-size: 36px;
+    font-size: 50px;
     color:white; 
-    margin-bottom: 20px; 
+    margin-bottom: 50px; 
     font-weight: bold;
+    border-radius: 10px;
   }
    p {
     font-size: 18px; 
-    line-height: 1.6; 
+    line-height: 1; 
     color:white; 
     max-width: 800px; 
     margin: 0 auto; 
@@ -106,7 +107,9 @@ text-align: left;
     .book{
       background-color: red;
       padding: 20px;
-      box-shadow: 0 0 10px;
+      background-color:gray;
+      margin: 50px;
+      border-radius: 10px;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
       width: 15rem;
-       margin: 1rem;
     }
