@@ -81,7 +81,8 @@ text-align: left;
   }
    p {
     font-size: 18px; 
-    line-height: 1; 
+    font-size: larger;
+    line-height: 1.2; 
     color:white; 
     max-width: 800px; 
     margin: 0 auto; 
@@ -108,7 +109,7 @@ text-align: left;
       padding: 20px;
       background-color:gray;
       margin: 50px;
-      border-radius: 10px;
+      border-radius: 20px;
       box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
       width: 15rem;
       justify-content: center;
@@ -118,4 +119,9 @@ text-align: left;
         margin-top: 20px;
         max-width: 88rem;
         justify-content: center;
+    }
+    .but1{
+      text-decoration: none;
+      color: rgb(38, 6, 38);
+      font-size: small;
     }
