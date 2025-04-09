@@ -52,59 +52,21 @@ body {
   .ead p{
   text-align: left; 
   }
-/* Main Content Styling */
-.history-section {
-    background-color: #fff;
-    padding: 50px 0;
-    text-align: center;
-}
-
-.history-section h1 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: #34495e;
-}
-
-.intro-text {
-    font-size: 1.2rem;
-    color: #7f8c8d;
-    margin-bottom: 40px;
-    max-width: 800px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Timeline Styles */
-.history-timeline {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 30px;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-.timeline-event {
-    background-color: #ecf0f1;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.timeline-event h2 {
-    font-size: 1.5rem;
-    color: #2c3e50;
-    margin-bottom: 10px;
-}
-
-.timeline-event p {
-    color: #7f8c8d;
-    font-size: 1rem;
-}
-
-/* Footer Styling */
-footer {
-    background-color: #2c3e50;
+  p{
+    padding: 10px 30px;
+    font-weight: 60px;
+    font-size: large;
+    color: rgb(227, 221, 221);
+  }
+  .container{
+    background-image: url(img4.jpg);
+    background-attachment: fixed;
+    background-position:center ;
+    background-repeat:no-repeat ;
+    background-size:cover ;
+  }
+  footer{
+  background-color: #2c3e50;
     color: #ecf0f1;
     text-align: center;
     padding: 20px;
