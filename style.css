@@ -125,3 +125,30 @@ text-align: left;
       color: rgb(0, 0, 0);
       font-size: small;
     }
+    footer{
+      background-color: red;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 20px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+    
+    footer p {
+        font-size: 1rem;
+    }
+    @media   (max-width:100px) {
+      .container{
+          width:0;
+          margin: 0;
+          border-radius: 0;
+          padding: 0;
+    }
+   .ead img{
+      border-radius: 0;
+    }
+    .head,.head2,p,.ead{
+      margin: 20px;
+    }
+  }
