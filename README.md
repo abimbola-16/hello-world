@@ -10,7 +10,7 @@ An Historical page
 
    Features
 
-   #List of key features or sections on the historical page 
-    ** ABOUT US section explains what the website is about
-    ** Historical section that explains about girls brigade and it will link to the main history of GB
-    ** Rank section exlains the rank and the ages of each girls and the photospeaks
+   ### List of key features or sections on the historical page 
+**ABOUT US section explains what the website is about**
+**Historical section that explains about girls brigade and it will link to the    main history of GB**
+**Rank section exlains the rank and the ages of each girls and the photospeaks**
