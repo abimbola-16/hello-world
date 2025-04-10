@@ -108,11 +108,12 @@ text-align: left;
     .book{
       padding: 20px;
       background-color:rgb(176, 169, 169);
-      margin: 50px;
+      margin: 10px;
       border-radius: 20px;
       box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
       width: 15rem;
       justify-content: center;
+      gap: 0.0px;
     }
     .container2{
         display: flex;
@@ -125,6 +126,30 @@ text-align: left;
       color: rgb(0, 0, 0);
       font-size: small;
     }
+    h2{
+      font-size: larger;
+      font-size: 40px;
+      text-align: center;
+      color: #4CAF50;
+    }
+    .image-container{
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .image-container img{
+      width: 180px;
+      height: 180px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .image-container img:hover{
+      transform: scale(1.05);
+    }
     footer{
       background-color: red;
         color: #ecf0f1;
@@ -133,6 +158,7 @@ text-align: left;
         position: relative;
         bottom: 0;
         width: 100%;
+        height: 30px;
     }
     
     footer p {
@@ -148,7 +174,8 @@ text-align: left;
    .ead img{
       border-radius: 0;
     }
-    .head,.head2,p,.ead{
-      margin: 20px;
+    .head,.head2,p,.ead,.book{
+      margin: 5px;
     }
+    .image-container, .image-container img, .image-container img:hover, .book, .reference{flex-direction: column;}
   }
