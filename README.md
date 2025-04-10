@@ -20,7 +20,6 @@ An Historical page
     - **Rank section exlains the rank and the ages of each girls and the photospeaks**
       
     - **our photo gallery section it consist images of the girls brigade**
-=======
 
   Technologies used
 
@@ -39,6 +38,6 @@ An Historical page
 
 
 
-     -Instructions on how to view or run the historical page, such as:
-        -navigate to the 
+     - ### Instructions on how to view or run the historical page, such as:
+        -Clone the repository'
 >>>>>>> de53f513c7a409338d5400d8061220b527b8fa31
