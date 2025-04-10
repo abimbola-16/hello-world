@@ -60,11 +60,11 @@ body {
   }
   .container{
     background-image: url(img18.jpg);
-    filter: brightness(1);
     background-attachment: fixed;
     background-position:center ;
     background-repeat:no-repeat ;
     background-size:cover ;
+    background-color: rgba(0, 0, 0, 0.2);
   }
   footer{
   background-color: red;
