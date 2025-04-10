@@ -39,8 +39,8 @@ An Historical page
 
 
      - ### Instructions on how to view or run the historical page, such as:
-        -Clone the repository'https://github.com/abimbola-16/hello-world.git'
-        -Then open the 'Home.html' file in the web browser
+        - **Clone the repository'https://github.com/abimbola-16/hello-world.git'**
+        - **Then open the 'Home.html' file in the web browser**
 
        Usage
 
@@ -50,7 +50,7 @@ An Historical page
 
 
 
-       Contribution
+       Conlusion
 
           - ### information on how others can contribute to the history page, such as;
-             -using the repository'https://github.com/abimbola-16/hello-world.git'   
+             -**using the repository'https://github.com/abimbola-16/hello-world.git'**   
