@@ -10,11 +10,14 @@ An Historical page
 
    Features
 
- -  ### List of key features or sections on the historical page
+ - ### List of key features or sections on the historical page
   
 - **About us section** explains what the website is about
+  
 - **Historical section**explains about girls brigade and it will link to the main history of GB
+  
 - **Rank section** exlains the rank and the ages of each girls and the photospeaks
+  
 - **our photo gallery section**it consist of the girls photographs and activites
 
   Technologies used
@@ -22,9 +25,9 @@ An Historical page
 
 
   - ### List of technologies used
-     -HTML
-     -CSS
-     -GITHUB
+     - **HTML**
+     - **CSS**
+     - **GITHUB**
 
 
 
