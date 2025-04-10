@@ -39,5 +39,18 @@ An Historical page
 
 
      - ### Instructions on how to view or run the historical page, such as:
-        -Clone the repository'
->>>>>>> de53f513c7a409338d5400d8061220b527b8fa31
+        -Clone the repository'https://github.com/abimbola-16/hello-world.git'
+        -Then open the 'Home.html' file in the web browser
+
+       Usage
+
+         - ### information on how to use the historical page, such as;
+             - **Navigate through the different section of the page using the links in the header**
+             - **click the see more in order to link you to the history page**
+
+
+
+       Contribution
+
+          - ### information on how others can contribute to the history page, such as;
+             -using the repository'https://github.com/abimbola-16/hello-world.git'   
