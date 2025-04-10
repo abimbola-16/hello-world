@@ -10,7 +10,29 @@ An Historical page
 
    Features
 
- -  ### List of key features or sections on the historical page 
-- **About us section explains what the website is about**
-- **Historical section that explains about girls brigade and it will link to the    main history of GB**
-- **Rank section exlains the rank and the ages of each girls and the photospeaks**
+ -  ### List of key features or sections on the historical page
+  
+- **About us section** explains what the website is about
+- **Historical section**explains about girls brigade and it will link to the main history of GB
+- **Rank section** exlains the rank and the ages of each girls and the photospeaks
+- **our photo gallery section**it consist of the girls photographs and activites
+
+  Technologies used
+
+
+
+  - ### List of technologies used
+     -HTML
+     -CSS
+     -GITHUB
+
+
+
+    Installation
+
+
+
+
+
+     -Instructions on how to view or run the historical page, such as:
+        -navigate to the 
