@@ -7,6 +7,7 @@
     position: relative;
     text-align: center;
     color: white;
+    flex-wrap: wrap;
 }
 
 .word{
@@ -19,20 +20,22 @@
   align-items: center;
 }
  .head{
-  height: 20px; 
-  background-color: red;
+  height: 97px; 
+  background-color:navy;
   display: flex;
   align-items: flex-end;
-}.head2{
-  height: 138px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .navi{
   position: absolute;
   top: 2px;
   right: 5px;
-  font-size: 15px;
-  font-weight: 30px;
-  color: #333;
+  font-size: 17px;
+  font-weight: 35px;
+  padding:30px;
+  margin: 28px;
 }
 .navi ul{
 list-style: none;
@@ -44,21 +47,26 @@ gap: 20px;
 }
 .navi ul li a{
   text-decoration: none;
+  color: white;
+  font-size: medium;
+  font-size: 23px;
 }
 .navi li{
   list-style-type: none;
 }
-.head2 .ead{
+.head .ead{
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 .ead img{
-    border-radius: 160%;
+    border-radius: 120%;
     height: auto;
-    width: 150px;
+    width: 100px;
 }
-.ead p{
-text-align: left; 
+.ead h1{
+text-align: center;
+color:white
 }
 .sec{
     background-color: #f4f4f4; 
@@ -78,6 +86,11 @@ text-align: left;
     margin-bottom: 50px; 
     font-weight: bold;
     border-radius: 10px;
+  }
+  .para{
+    font-size: medium;
+    font-size: 20px;
+    color: rgb(90, 87, 87);
   }
    p {
     font-size: 20px; 
@@ -101,6 +114,16 @@ text-align: left;
       padding: 30px 15px;
     }
       */
+      .Abot{  
+        text-align: center;
+        font-size: larger;
+        font-size: 25px;
+       }
+       .section1{
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+       }
     .reference {
       color: #4CAF50 ;
       font-size: large;
@@ -174,8 +197,8 @@ text-align: left;
    .ead img{
       border-radius: 0;
     }
-    .head,.head2,p,.ead,.book{
-      margin: 5px;
+    .head,p,.ead,.book,.navi,.navi ul li a{
+      margin: 10px;
     }
-    .image-container, .image-container img, .image-container img:hover, .book, .reference{flex-direction: column;}
+   .head,.navi,.navi ul li a,.image-container, .image-container img, .image-container img:hover, .book, .reference{flex-direction: column;}
   }
