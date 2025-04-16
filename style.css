@@ -40,7 +40,7 @@
 .navi ul{
 list-style: none;
 display: flex;
-gap: 20px;
+gap: 15px;
 }
 .navi ul li{
   margin: 0%;
@@ -48,8 +48,8 @@ gap: 20px;
 .navi ul li a{
   text-decoration: none;
   color: white;
-  font-size: medium;
-  font-size: 23px;
+  font-size: small;
+  font-size: 15px;
 }
 .navi li{
   list-style-type: none;
@@ -61,12 +61,12 @@ gap: 20px;
 }
 .ead img{
     border-radius: 120%;
-    height: auto;
+    height: 95px;
     width: 100px;
 }
-.ead h1{
+.ead h3{
 text-align: center;
-color:white
+color:white;
 }
 .sec{
     background-color: #f4f4f4; 
@@ -88,14 +88,15 @@ color:white
     border-radius: 10px;
   }
   .para{
-    font-size: medium;
-    font-size: 20px;
+    font-size: small;
+    font-size: 15px;
     color: rgb(90, 87, 87);
+    gap: 0%;
   }
    p {
     font-size: 20px; 
     font-size: small;
-    line-height: 1.2; 
+    line-height: 2.1; 
     color:white; 
     max-width: 800px; 
     margin: 0 auto; 
@@ -114,10 +115,17 @@ color:white
       padding: 30px 15px;
     }
       */
-      .Abot{  
+      .about{  
         text-align: center;
         font-size: larger;
         font-size: 25px;
+       }
+       
+       h1{
+        text-align: center;
+        font-size: larger;
+        font-size: 39px;
+        color:white;
        }
        .section1{
         display: flex;
@@ -130,11 +138,11 @@ color:white
     }
     .book{
       padding: 20px;
-      background-color:rgb(176, 169, 169);
-      margin: 10px;
+      background-color:navy;
+      margin: 20px;
       border-radius: 20px;
-      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2); 
-      width: 15rem;
+      box-shadow: 5px 5px 10px rgb(99, 99, 206); 
+      width: 17rem;
       justify-content: center;
       gap: 0.0px;
     }
@@ -146,14 +154,19 @@ color:white
     }
     .but1{
       text-decoration: none;
-      color: rgb(0, 0, 0);
-      font-size: small;
+      color: navy;
+      font-size: smaller;
+      font-size: 12px;
+    }
+    button{
+      border-radius: 300px;
+      background-color: white;
     }
     h2{
       font-size: larger;
       font-size: 40px;
       text-align: center;
-      color: #4CAF50;
+      color:#001f3f;
     }
     .image-container{
       display: flex;
@@ -174,18 +187,18 @@ color:white
       transform: scale(1.05);
     }
     footer{
-      background-color: red;
-        color: #ecf0f1;
+      background-color: navy;
         text-align: center;
         padding: 20px;
         position: relative;
         bottom: 0;
         width: 100%;
-        height: 30px;
+        height: 50px;
     }
     
     footer p {
-        font-size: 1rem;
+        font-size: 14px;
+        color: white;
     }
     @media   (max-width:100px) {
       .container{
