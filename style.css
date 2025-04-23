@@ -60,9 +60,9 @@ gap: 15px;
   gap: 8px;
 }
 .ead img{
-    border-radius: 120%;
-    height: 95px;
-    width: 100px;
+    border-radius: 10%;
+    height: 90px;
+    width: 70px;
 }
 .ead h3{
 text-align: center;
@@ -89,7 +89,7 @@ color:white;
   }
   .para{
     font-size: small;
-    font-size: 15px;
+    font-size: 18px;
     color: rgb(90, 87, 87);
     gap: 0%;
   }
